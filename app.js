@@ -23,7 +23,7 @@
 'use strict';
 
 // Receiver import
-const WebhookReceiver = require('./ReceiverClass/WebhookReceiverClass.js');
+const WebhookReceiver = require('./WebhookReceiverClass.js');
 
 // Create webhook receiver
 const webhookReceiver = new WebhookReceiver();
